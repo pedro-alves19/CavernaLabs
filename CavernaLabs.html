@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/style2.css">
+    <title>Site CavernaLabs</title>
+
+</head>
+
+<body>
+    <div class="botoes">
+        <div class="frase">
+            <h2 id="title0" class="title">Teste CavernaLabs</h2>
+            <div class="negrito">
+                <input type="button" value="Negrito" id="botao1">
+            </div>
+            <div class="borda">
+                <input type="button" value="Borda" id="botao2">
+            </div>
+            <div class="centralizar">
+                <input type="button" value="Centralizar" id="botao3">
+            </div>
+            <div class="cfv">
+                <input type="button" value="Cor de Fundo" id="botao4">
+            </div>
+            <div class="cta">
+                <input type="button" value="Cor de Texto" id="botao5">
+            </div>
+        </div>
+    </div>
+    <script>
+        var botao1 = document.getElementById("botao1");
+        var t1 = document.getElementById("title0");
+        botao1.addEventListener('click', function() {
+            t1.style.fontWeight = 'bold';
+        })
+
+        var b2 = document.getElementById("botao2");
+        var t2 = document.getElementById("title0");
+        b2.addEventListener('click', function() {
+            t2.style.border = 'groove';
+        })
+
+        var b3 = document.getElementById("botao3");
+        var t3 = document.getElementById("title0");
+        b3.addEventListener('click', function() {
+            t3.style.alignSelf = 'center';
+        })
+
+        var b4 = document.getElementById("botao4");
+        var t4 = document.getElementById("title0");
+        b4.addEventListener('click', function() {
+            t4.style.background = 'red';
+        })
+
+        var b5 = document.getElementById("botao5");
+        var t5 = document.getElementById("title0");
+        b5.addEventListener('click', function() {
+            t5.style.color = 'blue';
+        })
+    </script>
+    <div>
+    </div>
+</body>
+
+</html>

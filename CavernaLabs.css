@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.botoes {
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 800px;
+    background-color: #ecf0f1;
+}
+
+.botons {
+    height: 500px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #fff;
+    margin: auto;
+    padding: inherit;
+    box-sizing: border-box;
+}
+
+.title {
+    display: flex;
+    align-self: normal;
+    font-weight: lighter;
+}
+
+.frase {
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 15pt;
+    background: #fff;
+    margin: auto;
+    padding: inherit;
+    box-sizing: border-box;
+}
+
+.negrito {
+    display: flex;
+    justify-content: center;
+}
+
+.borda {
+    display: flex;
+    justify-content: center;
+}
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+}
+
+.cfv {
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+}
